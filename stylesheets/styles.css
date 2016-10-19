@@ -53,9 +53,11 @@
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.ttf') format('truetype'),
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans') format('svg');
 }
-
+.wbst-row {
+  background: #fff;
+}
 body {
-  background-color: #fff;
+  background-color: rgba(0,0,0,0.05);;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -322,3 +324,15 @@ footer {
     color:#444;
   }
 }
+
+/* cust style */
+.cst-card-img {
+    max-height: 280px;
+    overflow: hidden;
+}
+.card-content span, .card-content p {
+  color: #727272 !important;
+}
+.cst-card {
+    background-color: #f3f3f3 !important;
+} 
