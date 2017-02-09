@@ -1,0 +1,16 @@
+{
+	"post": {
+	"postitems": [{
+	"title":"Taking release build",
+	"details":"For testing purpose"
+	},
+	{
+	"title":"PDF file integration in ionic application",
+	"details":"PDF format"
+	},
+	{
+	"title":"EPub fileintegration",
+	"details":"Epub format"
+	}]
+	}
+}
