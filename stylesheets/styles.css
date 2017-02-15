@@ -304,9 +304,9 @@ footer {
 }
 
 @media print, screen and (max-width: 480px) {
-  body {
+/*  body {
     padding:15px;
-  }
+  }*/
 
   header ul {
     width:99%;
