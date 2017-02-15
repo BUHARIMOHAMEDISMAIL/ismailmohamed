@@ -58,7 +58,7 @@
 }
 body {
   background-color: rgba(0,0,0,0.05);;
-  padding:50px;
+  /*padding:50px;*/
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
@@ -338,4 +338,37 @@ footer {
 } 
 .website-signin-row {
     margin: auto 30% !important;
+}
+.menutabitem {
+  display: none;
+}
+.menutabitem {
+      padding: 10px 20px 10px 50px;
+      background: #444;
+}
+.sidemenu i {
+  font-size: 3em;
+}
+.userView {
+    background: #444;
+}
+@media print, screen and (max-width: 720px) {
+  .left-cont {
+    display: none !important;
+  }
+  .right-post-cont {
+    width: 90% !important;
+    margin: auto 5% !important;
+  }
+  .menutabitem {
+    display: inherit !important;
+  }
+} 
+@media print, screen and (max-width: 480px) {
+  .menutabitem {
+    display: inherit !important;
+  }
+  .frwidth {
+    width: 70% !important;
+  }
 }
